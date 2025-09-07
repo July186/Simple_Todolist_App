@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:to_do_list/models/task_model.dart';
 
 class SaveTask extends ChangeNotifier {
-  List<Task> _tasks = [
-    Task(title: 'learn flutter', isComplet: false),
-    Task(title: 'EAT SOMETHING', isComplet: false),
-  ];
+  List<Task> _tasks = [];
 
   List<Task> get tasks => _tasks;
 
